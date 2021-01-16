@@ -140,6 +140,8 @@ header .menu .menu_nav ul li a:hover {
 section {
   overflow: hidden;
   height: 100%;
+  width: 100%;
+  max-width: 800px;
 }
 
 section .centro-Principal {
@@ -177,6 +179,18 @@ footer {
 }
 
 @media only screen and (min-width: 500px) and (max-width: 700px) {
+  header {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    height: 103px;
+  }
+  section {
+    padding-top: 112px;
+  }
   section .centro-Principal {
     width: 100%;
   }
@@ -186,6 +200,15 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  header {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    height: 103px;
+  }
   .menu .menu_nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -195,6 +218,9 @@ footer {
   }
   .menu .menu_nav ul li a {
     font-size: .8em;
+  }
+  section {
+    padding-top: 112px;
   }
   section .centro-Principal {
     width: 100%;
