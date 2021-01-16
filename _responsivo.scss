@@ -1,3 +1,15 @@
+@media screen (max-width:700px) and (orientation: landscape){
+    section{
+        // padding-top: 112px;
+        .centro-Principal{
+            width: 100%;
+        }
+        .centro-Principal-Aside{
+            width: 100%;
+        }
+    }
+}
+
 @media only screen and (min-width:500px) and (max-width:700px){
     header{
 
@@ -22,6 +34,8 @@
         }
     }
 }
+
+
 @media only screen  and (max-width:500px){
     header{
 
