@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    background-color: burlywood;
+    .menu{
+        padding-bottom: 5px;
+        .menu_nav ul{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 1.5em;
+            a{
+                padding: 6px 10px;
+                border:1px black solid;
+                border-radius: 5px;
+            }
+            .ativo{
+                border-radius: 5px;
+                background-color: chocolate;
+            }
+            li a{
+                border-left:solid 3px;
+                color: black;
+            }
+            li a:hover{
+                background-color: coral;
+                border-left:solid 1px;
+                border-right:solid 3px;
+            }
+        }
+    }
+}

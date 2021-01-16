@@ -1,0 +1,28 @@
+@media only screen and (min-width:500px) and (max-width:700px){
+    section{
+        .centro-Principal{
+            width: 100%;
+        }
+        .centro-Principal-Aside{
+            width: 100%;
+        }
+    }
+}
+@media only screen  and (max-width:500px){
+
+    .menu{
+        .menu_nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        li a{font-size: .8em;}
+        }
+    }
+    section{
+        .centro-Principal{
+            width: 100%;
+        }
+        .centro-Principal-Aside{
+            width: 100%;
+        }
+    }
+}

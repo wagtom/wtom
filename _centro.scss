@@ -1,0 +1,28 @@
+section{
+    overflow: hidden;
+    height: 100%;
+    .centro-Principal{
+        width: 50%;
+        float: left;
+        padding: 2%;
+    }
+    .centro-Principal-Aside{
+        width: 50%;
+        float: right;
+        .superior{
+            background-color: chocolate;
+            padding: 4%;
+        }
+        .inferior{
+            background-color: coral;
+            padding: 4%;
+            .zap{
+                margin-left: 20px;
+                max-width:30px;
+                max-height:30px;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

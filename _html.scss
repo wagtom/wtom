@@ -1,0 +1,18 @@
+html{background-color: white;}
+body{
+    background-color: rgb(228, 156, 62);
+    // margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    p{margin-left: 20px;}
+}
+header, section, footer{
+    p{font-size: 1.5em;}
+    h1{font-size: 3em;}
+    h2{font-size: 1.5em;}
+    h3{font-size: 2em;}
+    h4{font-size: 1.1em;}
+}

@@ -1,0 +1,1 @@
+const $btnMenu = document.querySelector('.btnMenu')
