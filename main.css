@@ -178,28 +178,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px) {
-  header {
-    position: fixed;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 800px;
-    height: 103px;
-  }
-  section {
-    padding-top: 112px;
-  }
-  section .centro-Principal {
-    width: 100%;
-  }
-  section .centro-Principal-Aside {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   header {
     position: fixed;
     top: 0;
